@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Pacifico",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.home_page{
+  position:relative;
+  top:0px;
+  left:0px;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo_image{
+  width:600px;
+  height:600px;
+  background-image: url('http://flippoweb.com/liveincolor/logo.png');
+  background-size:900px 900px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.navigation_bar{
+  font-family: 'Pacifico';
+  font-size: 20px;
+  width:1000px;
+  display: flex;
+  justify-content: space-around;
+  height:50px;
+  background-color:#dddddd;
+  border-radius:20px;
+  margin-bottom: 30px;
+} 
+
+.navigation_options{
+  margin-top:0px;
+  height:37px;
+  padding-top:8px;
+  width:130px;
+  cursor:pointer;
+  border-bottom: 5px solid rgba(0,0,0,0);
+  transition:border-bottom .3s;
+  text-align: center;
+}
+
+.option1:hover{
+  border-bottom: 5px solid rgba(0,240,255,1);
+}
+
+.option2:hover{
+  border-bottom: 5px solid rgba(255,0,228,1);
+}
+
+.option3:hover{
+  border-bottom: 5px solid rgba(255,246,0,1);
+}
+
+
+.cards{
+  width: 996px;
+  height: 150px;
+  border-radius:20px;
+  margin-bottom:30px;
+  border:2px solid #dddddd;
+  position: relative;
+  transition: background-color .1s;
+}
+
+.cards:hover{
+  cursor:pointer;
+  background-color:#dddddd;
+}
+
+
+.thumbnail{
+  position:absolute;
+  width:213px;
+  height:120px;
+  background-color:#999999;
+  top:15px;
+  left:23px;
+  border-radius:15px;
+}
+
+.card_title{
+  position:absolute;
+  top:15px;
+  left:259px;
+  height:30px;
+  font-family:'Roboto';
+  color:#555555;
+  font-size:22px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width:500px;
+  font-weight:bold;
+}
+
+.card_description{
+  position:absolute;
+  left:259px;
+  height:54px;
+  line-height: 27px;   
+  font-family:'Roboto';
+  color:#555555;
+  font-size:20px;
+  overflow: hidden;
+  top:50px;
+  width:718px;
+  color:#999999;
+}
+
+.card_owner{
+  position:absolute;
+  left:259px;
+  height:30px;
+  font-family:'Roboto';
+  color:#555555;
+  font-size:18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  top:115px;
+  width:300px;
+  color:#777777;
+}
+
