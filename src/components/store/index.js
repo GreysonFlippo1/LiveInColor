@@ -1,4 +1,3 @@
-  
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { createLogger } from 'redux-logger';
 import { composeWithDevTools } from 'redux-devtools-extension';
@@ -8,7 +7,7 @@ import {
   routerMiddleware as historyMiddleware
 } from 'connected-react-router';
 import thunkMiddleware from 'redux-thunk';
-//import user from './user.js';
+import playlist from './playlist';
 
 export const history = process.browser
   ? createBrowserHistory()
@@ -16,7 +15,7 @@ export const history = process.browser
 const middlewareList = [thunkMiddleware, historyMiddleware(history)];
 
 const reducer = combineReducers({
-  user: user,
+  playlist,
   router: connectRouter(history)
 });
 
