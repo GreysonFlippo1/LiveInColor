@@ -12,21 +12,21 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const channelId = "UCh4NcC_WCUwCDCu5t2DuT5A";
 
-app.get('/api/key', async (req, res, next) => {
-    res.send({key:process.env.YOUTUBE_API_KEY});
-});
+// app.get('/api/key', async (req, res, next) => {
+//     res.send({key:process.env.YOUTUBE_API_KEY});
+// });
 
-app.get('/api/playlists', async (req,res,next) => {
-    try{    
-        const key = process.env.YOUTUBE_API_KEY;
-        const {data} = await axios.get(`https://www.googleapis.com/youtube/v3/playlists?part=id&channelId=${channelId}&key=${key}`)
-        res.send(data)
-    }
-    catch(e){
-        console.log(e);
-        res.send("Could not get playlists")
-    }
-});
+// app.get('/api/playlists', async (req,res,next) => {
+//     try{    
+//         const key = process.env.YOUTUBE_API_KEY;
+//         const {data} = await axios.get(`https://www.googleapis.com/youtube/v3/playlists?part=id&channelId=${channelId}&key=${key}`)
+//         res.send(data)
+//     }
+//     catch(e){
+//         console.log(e);
+//         res.send("Could not get playlists")
+//     }
+// });
 
 app.get('/api/podcasts', async (req,res,next) => {
     try{    
