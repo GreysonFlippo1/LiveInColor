@@ -27,6 +27,8 @@ export default function Home(){
                             <Card key={video.id} video={video}/>
                         ))
                     }
+                    
+                    <Social />
                 </>
                 :
                 <>
@@ -43,7 +45,6 @@ export default function Home(){
                 </>
             }
             <Card />
-            <Social />
         </div>
     )
 }
