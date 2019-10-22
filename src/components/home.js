@@ -4,6 +4,7 @@ import { getPlaylistThunk } from './store/playlist';
 import Nav from './Nav';
 import Card from './card';
 import GridLoader from 'react-spinners/GridLoader';
+import Social from './social';
 
 export default function Home(){
     const playlist = useSelector(state => state.playlist);
@@ -14,7 +15,9 @@ export default function Home(){
 
     return(
         <div className="home_page">
-            <div className="logo_image"/>
+            <a href="https://www.youtube.com/channel/UCh4NcC_WCUwCDCu5t2DuT5A/featured" target="_blank" rel="noopener noreferrer">
+                <div className="logo_image"/>
+            </a>
             <Nav />
             {
                 (playlist.items && playlist.items.length > 1)?
@@ -40,6 +43,10 @@ export default function Home(){
                 </>
             }
             <Card />
+            <Social />
         </div>
     )
 }
+
+
+//twitter, soundcloud, instagram, youtube, email

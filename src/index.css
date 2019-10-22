@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color:#ffffff;
   overflow-y:scroll; 
+  overflow-x: hidden;
 }
 
 code {
@@ -165,3 +166,83 @@ code {
   font-size:20px;
 }
 
+.footer{
+  width:100vw;
+  height:180px;
+  background-color:#eeeeee;
+  margin-top:100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialLinks{
+  width:1000px;
+  height:90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.socialLink{
+  width:50px;
+  height:50px;
+  margin-right:20px;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  filter: saturate(30%) brightness(110%);
+  transition:0.2s;
+}
+
+.socialLink:hover{
+  filter: saturate(100%) brightness(100%);
+}
+
+#twitter{
+  background-image: url("http://elementarylibrarian.com/wp-content/uploads/2013/11/twitter-bird-white-on-blue.png");
+}
+
+#instagram{
+  background-image: url("https://www.educationviews.org/wp-content/uploads/2018/12/instagram-colourful-icon.png");
+}
+
+#soundcloud{
+  background-image: url("https://i1.sndcdn.com/avatars-000681921569-32qkcn-t500x500.jpg");
+}
+
+#youtube{
+  background-image: url("https://cdn.icon-icons.com/icons2/1211/PNG/512/1491579609-yumminkysocialmedia08_83079.png");
+}
+
+#email{
+  width:100%;
+  text-align: right;
+  font-size: 20px;
+  color:#555555;
+}
+
+#divider{
+  border-top:1px solid #555555;
+}
+
+.developerInfo{
+  width:100%;
+  text-align: left;
+  font-size: 20px;
+  color:#555555;
+  line-height: 10px;
+}
+
+.developerEmail{
+  text-align: right;
+}
+
+.small{
+  font-size:15px;
+}
+
+a:visited {color:#555555; }
+a:hover {color:#555555; }
+a:focus {color:#555555; }
+a:hover, a:active {color:#555555 }
