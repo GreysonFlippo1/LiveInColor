@@ -41,7 +41,7 @@ app.get('/api/videos', async (req,res,next) => {
 app.get('/api/music', async (req,res,next) => {
     try{    
         const key = process.env.YOUTUBE_API_KEY;
-        const playlistId = "PLQ80Hi816F7PvGJnCXDOEOeSZrSdV8CYP";
+        const playlistId = "PLQ80Hi816F7M_jbTjABbHTzvdeM5bRqqk";
         const {data} = await axios.get(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${playlistId}&maxResults=50&key=${key}`)
         res.send(data)
     }
