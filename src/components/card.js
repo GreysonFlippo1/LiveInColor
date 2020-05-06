@@ -10,6 +10,10 @@ import { purple } from '@material-ui/core/colors';
 export default function Card(props){
     const [size, setSize] = React.useState('');
     const [open, setOpen] = React.useState(false);
+    const [image, setImage] = React.useState(0);
+    
+    let gallery_image_length = 0;
+    (props.video && props.video.snippet.images) && (gallery_image_length = props.video.snippet.images.length-1);
 
     const ColorButton = withStyles((theme) => ({
         root: {
@@ -33,6 +37,14 @@ export default function Card(props){
         setOpen(true);
       };
 
+      const handleNext = () => {
+          (image === gallery_image_length) ? setImage(0) : setImage(image+1)
+      }
+
+      const handlePrev = () => {
+          (image === 0) ? setImage(gallery_image_length) : setImage(image-1)
+      }
+
     return (
         props.video ? (
             <>
@@ -48,9 +60,12 @@ export default function Card(props){
                     </a>
                 ) : (
                     <div className="cards expanded">
-                        <div className="thumbnail image_gallery" style={{backgroundImage:`url(${props.video.snippet.thumbnails.medium.url})`}} />
+                        <div className="thumbnail image_gallery" style={{backgroundImage:`url(${props.video.snippet.images[image]})`}} >
+                            <div className="next_button slide_button" onClick={handleNext}>&#8594;</div>
+                            <div className="prev_button slide_button" onClick={handlePrev}>&#8592;</div>
+                        </div>
                         <div className="card_title expanded_info expanded_title">{props.video.snippet.title}</div>
-                        <div className="card_description expanded_info expanded_description">{props.video.snippet.description}</div>
+                        <div className="card_description expanded_info expanded_description single_line">{props.video.snippet.description}</div>
                         <div className="card_price expanded_info expanded_price">${props.video.snippet.price}</div>
                         <FormControl className="dropdown expanded_dropdown">
                             <InputLabel id="demo-controlled-open-select-label">Size</InputLabel>

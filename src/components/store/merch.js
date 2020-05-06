@@ -13,6 +13,7 @@ module.exports = {
                     }
                 },
                 images: [
+                    'http://www.liveincolormedia.com/Merch_Images/Shirts/singleshirtTHUMB.png',
                     'http://www.liveincolormedia.com/Merch_Images/Shirts/shirtaldaySLIDE.png',
                     'http://www.liveincolormedia.com/Merch_Images/Shirts/shirtadSLIDE.png'
                     ],
@@ -31,7 +32,10 @@ module.exports = {
                         url:'http://www.liveincolormedia.com/Merch_Images/Masks/maskJohnny.jpeg'
                     }
                 },
-                images: [],
+                images: [
+                    'http://www.liveincolormedia.com/Merch_Images/Masks/maskJohnny.jpeg',
+                    'http://www.liveincolormedia.com/Merch_Images/Masks/mask2.jpg'
+                ],
                 sizes_available: [0,0,0,0,0],
                 stock: 0,
                 price: 15.00,

@@ -96,6 +96,10 @@ code {
   height: 430px;
 }
 
+.expanded:hover{
+  cursor: default;
+}
+
 @keyframes fade{
   from{opacity: 0;}
   to{opacity: 1;}
@@ -117,6 +121,33 @@ code {
 .image_gallery{
   width:400px;
   height:400px;
+}
+
+.next_button{
+  right:10px;
+}
+
+.prev_button{
+  left:10px;
+}
+
+.slide_button{
+  width:40px;
+  height:45px;
+  font-size:35px;
+  line-height: 35px;
+  padding-left:5px;
+  background-color:rgba(240,240,240,0.9);
+  color:#222222;
+  border-radius: 50%;
+  position:absolute;
+  bottom:20px;
+  box-shadow:0px 0px 2px 2px #333333;
+}
+
+.slide_button:hover{
+  cursor:pointer;
+  background-color:rgba(200,200,200,0.9);
 }
 
 .card_title{
@@ -145,10 +176,6 @@ code {
   overflow: hidden;
   top:52px;
   width:718px;
-}
-
-.single_line{
-  height:27px;
 }
 
 .card_price{
@@ -191,7 +218,7 @@ code {
 
 .expanded_description{
   font-size:25px;
-  height:300px;
+  height:270px;
   line-height: 27px; 
   top:90px;
 }
@@ -409,6 +436,7 @@ a:hover, a:active {color:#555555 }
     height:auto;
     padding-bottom:20px;
   }
+
   .socialLinks{
     width:90vw;
     height:auto;
@@ -431,6 +459,36 @@ a:hover, a:active {color:#555555 }
   .developerEmail{
     text-align: left;
     margin-top:10px;
+  }
+
+  .single_line{
+    height:27px;
+  }
+
+  /* These are here to remove styles on mobile */
+
+  .image_gallery{
+  }
+
+  .expanded_info{
+  }
+  
+  .expanded_title{
+  }
+  
+  .expanded_description{
+  }
+  
+  .expanded_price{
+  }
+  
+  .expanded_dropdown{
+  }
+  
+  .add_to_cart{  
+  }
+  
+  .expanded_cart{
   }
 
 }
