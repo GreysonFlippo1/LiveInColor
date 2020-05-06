@@ -34,7 +34,8 @@ module.exports = {
                 },
                 images: [
                     'http://www.liveincolormedia.com/Merch_Images/Masks/maskJohnny.jpeg',
-                    'http://www.liveincolormedia.com/Merch_Images/Masks/mask2.jpg'
+                    'http://www.liveincolormedia.com/Merch_Images/Masks/mask2.jpg',
+                    'http://www.liveincolormedia.com/Merch_Images/Masks/mask3.jpg'
                 ],
                 sizes_available: [0,0,0,0,0],
                 stock: 0,
