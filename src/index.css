@@ -69,6 +69,10 @@ code {
   border-bottom: 5px solid rgba(255,246,0,1);
 }
 
+.option4:hover{
+  border-bottom: 5px solid rgb(82, 255, 143, 1);
+}
+
 
 .cards{
   width: 996px;
@@ -79,7 +83,7 @@ code {
   position: relative;
   transition: background-color .1s;
   position: relative;
-  animation: swipe-left .5s;
+  animation: fade .5s;
   animation-fill-mode: forwards;
 }
 
@@ -88,8 +92,15 @@ code {
   background-color:#dddddd;
 }
 
+.expanded{
+  height: 430px;
+}
 
-@keyframes swipe-left{
+.expanded:hover{
+  cursor: default;
+}
+
+@keyframes fade{
   from{opacity: 0;}
   to{opacity: 1;}
 }
@@ -105,6 +116,38 @@ code {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.image_gallery{
+  width:400px;
+  height:400px;
+}
+
+.next_button{
+  right:10px;
+}
+
+.prev_button{
+  left:10px;
+}
+
+.slide_button{
+  width:40px;
+  height:45px;
+  font-size:35px;
+  line-height: 35px;
+  padding-left:5px;
+  background-color:rgba(240,240,240,0.9);
+  color:#222222;
+  border-radius: 50%;
+  position:absolute;
+  bottom:20px;
+  box-shadow:0px 0px 2px 2px #333333;
+}
+
+.slide_button:hover{
+  cursor:pointer;
+  background-color:rgba(200,200,200,0.9);
 }
 
 .card_title{
@@ -128,12 +171,25 @@ code {
   height:54px;
   line-height: 27px;   
   font-family:'Roboto';
-  color:#555555;
+  color:#999999;
   font-size:20px;
   overflow: hidden;
   top:52px;
   width:718px;
+}
+
+.card_price{
+  position:absolute;
+  left:259px;
+  height:30px;
+  font-family:'Roboto';
   color:#999999;
+  font-size:18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  top:115px;
+  width:300px;
 }
 
 .card_owner{
@@ -141,14 +197,59 @@ code {
   left:259px;
   height:30px;
   font-family:'Roboto';
-  color:#555555;
+  color:#777777;
   font-size:18px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   top:115px;
   width:300px;
-  color:#777777;
+}
+
+.expanded_info{
+  left: 446px;
+  width: 526px;
+}
+
+.expanded_title{
+  font-size:40px;
+  height:50px;
+}
+
+.expanded_description{
+  font-size:25px;
+  height:270px;
+  line-height: 27px; 
+  top:90px;
+}
+
+.expanded_price{
+  font-size:40px;
+  height:50px;
+  top:365px;
+}
+
+.dropdown{
+  width: 150px;
+  position:absolute;
+  left:680px;
+  top:93px;
+}
+
+.expanded_dropdown{
+  top:360px;
+}
+
+.add_to_cart{  
+  position:absolute;
+  left:700px;
+  top:105px;
+}
+
+.expanded_cart{
+  position:absolute;
+  left:700px;
+  top:373px;
 }
 
 .loading_animation{
@@ -273,11 +374,16 @@ a:hover, a:active {color:#555555 }
     padding-bottom:10px;
     width:50vw;
     font-size:30px;
+    min-width: 200px;
   }
 
   .cards{
     width:99vw;
     height:100vw;
+  }
+
+  .expanded{
+    height:130vw;
   }
 
   .thumbnail{
@@ -308,10 +414,29 @@ a:hover, a:active {color:#555555 }
     top:90vw;
   }
 
+  .card_price{
+    left:20px;
+    width:80vw;
+    top:90vw;
+  }
+
+  .dropdown{
+    width: 60vw;
+    left:20vw;
+    top:100vw;
+  }
+  
+  .add_to_cart{  
+    width: 60vw;
+    left:20vw;
+    top:102vw;
+  }
+
   .footer{
     height:auto;
     padding-bottom:20px;
   }
+
   .socialLinks{
     width:90vw;
     height:auto;
@@ -334,6 +459,36 @@ a:hover, a:active {color:#555555 }
   .developerEmail{
     text-align: left;
     margin-top:10px;
+  }
+
+  .single_line{
+    height:27px;
+  }
+
+  /* These are here to remove styles on mobile */
+
+  .image_gallery{
+  }
+
+  .expanded_info{
+  }
+  
+  .expanded_title{
+  }
+  
+  .expanded_description{
+  }
+  
+  .expanded_price{
+  }
+  
+  .expanded_dropdown{
+  }
+  
+  .add_to_cart{  
+  }
+  
+  .expanded_cart{
   }
 
 }

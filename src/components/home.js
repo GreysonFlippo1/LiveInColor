@@ -11,7 +11,7 @@ export default function Home(){
     const dispatch = useDispatch();
 
     // eslint-disable-next-line
-    useEffect(() => {dispatch(getPlaylistThunk("podcasts"))}, []);
+    useEffect(() => {dispatch(getPlaylistThunk("videos"))}, []);
 
     return(
         <div className="home_page">
@@ -20,7 +20,7 @@ export default function Home(){
             </a>
             <Nav />
             {
-                (playlist.items && playlist.items.length > 1)?
+                (playlist.items && playlist.items.length > 0)?
                 <>
                     {
                         playlist.items.map(video => (
