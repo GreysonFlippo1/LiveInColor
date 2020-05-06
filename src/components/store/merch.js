@@ -38,10 +38,8 @@ module.exports = {
                     'http://www.liveincolormedia.com/Merch_Images/Masks/mask3.jpg'
                 ],
                 sizes_available: [0,0,0,0,0],
-
                 stock: 50,
                 price: 10.00,
-
             }
         },
         {
