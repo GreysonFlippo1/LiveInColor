@@ -47,12 +47,12 @@ export default function Card(props){
                     </div>
                     </a>
                 ) : (
-                    <div className="cards">
-                        <div className="thumbnail" style={{backgroundImage:`url(${props.video.snippet.thumbnails.medium.url})`}} />
-                        <div className="card_title">{props.video.snippet.title}</div>
-                        <div className="card_description">{props.video.snippet.description}</div>
-                        <div className="card_price">${props.video.snippet.price}</div>
-                        <FormControl className="dropdown">
+                    <div className="cards expanded">
+                        <div className="thumbnail image_gallery" style={{backgroundImage:`url(${props.video.snippet.thumbnails.medium.url})`}} />
+                        <div className="card_title expanded_info expanded_title">{props.video.snippet.title}</div>
+                        <div className="card_description expanded_info expanded_description">{props.video.snippet.description}</div>
+                        <div className="card_price expanded_info expanded_price">${props.video.snippet.price}</div>
+                        <FormControl className="dropdown expanded_dropdown">
                             <InputLabel id="demo-controlled-open-select-label">Size</InputLabel>
                             <Select
                             labelId="demo-controlled-open-select-label"
@@ -70,7 +70,7 @@ export default function Card(props){
                             <MenuItem value={4}>XX Large</MenuItem>
                             </Select>
                         </FormControl>
-                        <ColorButton variant="contained" color="primary" className="add_to_cart">
+                        <ColorButton variant="contained" color="primary" className="add_to_cart expanded_cart">
                             Add To Cart
                         </ColorButton>
                     </div>
