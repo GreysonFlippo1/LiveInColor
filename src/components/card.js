@@ -4,13 +4,25 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import Button from '@material-ui/core/Button';
+import { withStyles } from '@material-ui/core/styles';
+import { purple } from '@material-ui/core/colors';
 
 export default function Card(props){
-    const [age, setAge] = React.useState('');
+    const [size, setSize] = React.useState('');
     const [open, setOpen] = React.useState(false);
 
+    const ColorButton = withStyles((theme) => ({
+        root: {
+          color: theme.palette.getContrastText(purple[500]),
+          backgroundColor: purple[500],
+          '&:hover': {
+            backgroundColor: purple[700],
+          },
+        },
+    }))(Button);
+
     const handleChange = (event) => {
-        setAge(event.target.value);
+        setSize(event.target.value);
       };
     
       const handleClose = () => {
@@ -48,7 +60,7 @@ export default function Card(props){
                             open={open}
                             onClose={handleClose}
                             onOpen={handleOpen}
-                            value={age}
+                            value={size}
                             onChange={handleChange}
                             >
                             <MenuItem value={0}>Small</MenuItem>
@@ -58,9 +70,9 @@ export default function Card(props){
                             <MenuItem value={4}>XX Large</MenuItem>
                             </Select>
                         </FormControl>
-                        <Button variant="contained" color="primary" className="add_to_cart">
+                        <ColorButton variant="contained" color="primary" className="add_to_cart">
                             Add To Cart
-                        </Button>
+                        </ColorButton>
                     </div>
                 )
             }
