@@ -69,6 +69,10 @@ code {
   border-bottom: 5px solid rgba(255,246,0,1);
 }
 
+.option4:hover{
+  border-bottom: 5px solid rgb(82, 255, 143, 1);
+}
+
 
 .cards{
   width: 996px;
@@ -128,12 +132,25 @@ code {
   height:54px;
   line-height: 27px;   
   font-family:'Roboto';
-  color:#555555;
+  color:#999999;
   font-size:20px;
   overflow: hidden;
   top:52px;
   width:718px;
+}
+
+.card_price{
+  position:absolute;
+  left:259px;
+  height:30px;
+  font-family:'Roboto';
   color:#999999;
+  font-size:18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  top:115px;
+  width:300px;
 }
 
 .card_owner{
@@ -141,14 +158,26 @@ code {
   left:259px;
   height:30px;
   font-family:'Roboto';
-  color:#555555;
+  color:#777777;
   font-size:18px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   top:115px;
   width:300px;
-  color:#777777;
+}
+
+.dropdown{
+  width: 150px;
+  position:absolute;
+  left:680px;
+  top:93px;
+}
+
+.add_to_cart{  
+  position:absolute;
+  left:700px;
+  top:105px;
 }
 
 .loading_animation{

@@ -1,4 +1,5 @@
 import axios from 'axios';
+import merch from './merch.js';
 
 const GET_PLAYLIST = 'GET_PLAYLIST';
 const CLEAR_PLAYLIST = 'CLEAR_PLAYLIST';
@@ -15,9 +16,13 @@ export const clearPlaylist = () => ({
 
 export const getPlaylistThunk = (playlistType) => async dispatch => {
   try {
-    const res = await axios.get(`/api/${playlistType}`);
-    dispatch(getPlaylist(res.data));
+    if(playlistType === 'merch'){
+      dispatch(getPlaylist(merch));
+    } else {
+      const res = await axios.get(`/api/${playlistType}`);
+      dispatch(getPlaylist(res.data));
     }
+  }
   catch (err) {
     console.error(err);
   }
