@@ -45,6 +45,13 @@ export default function Card(props){
           (image === 0) ? setImage(gallery_image_length) : setImage(image-1)
       }
 
+      let hideSize = true
+      const sizeStyle = {opacity:0}
+      if (props.video && !props.video.snippet.sizes_available) {
+          hideSize = false
+          sizeStyle.opacity = 1
+      }
+
     return (
         props.video ? (
             <>
@@ -61,13 +68,17 @@ export default function Card(props){
                 ) : (
                     <div className="cards expanded">
                         <div className="thumbnail image_gallery" style={{backgroundImage:`url(${props.video.snippet.images[image]})`}} >
-                            <div className="next_button slide_button" onClick={handleNext}>&#8594;</div>
-                            <div className="prev_button slide_button" onClick={handlePrev}>&#8592;</div>
+                            {props.video.snippet.images.length > 1 && (
+                                <>
+                                <div className="next_button slide_button" onClick={handleNext}></div>
+                                <div className="prev_button slide_button" onClick={handlePrev}></div>
+                                </>
+                            )}
                         </div>
                         <div className="card_title expanded_info expanded_title">{props.video.snippet.title}</div>
                         <div className="card_description expanded_info expanded_description single_line">{props.video.snippet.description}</div>
                         <div className="card_price expanded_info expanded_price">${props.video.snippet.price}</div>
-                        <FormControl className="dropdown expanded_dropdown">
+                        <FormControl className="dropdown expanded_dropdown" disabled={hideSize} style={sizeStyle}>
                             <InputLabel id="demo-controlled-open-select-label">Size</InputLabel>
                             <Select
                             labelId="demo-controlled-open-select-label"

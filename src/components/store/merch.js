@@ -61,5 +61,23 @@ module.exports = {
                 price: 35.00,
             }
         },
+        {
+            id: 4,
+            snippet: {
+                title: 'Wristbands',
+                description: 'The colorful wristbands add the perfect amount of style to any fit you own. Get 5 different color combinations for the ultimate mix and match! All profits will go to the Boys and Girls Club!',
+                thumbnails: {
+                    medium: {
+                        url:'http://liveincolormedia.com/Merch_Images/Wristbands/wristbands.JPG'
+                    }
+                },
+                images: [
+                    'http://liveincolormedia.com/Merch_Images/Wristbands/wristbands.JPG',
+                    ],
+                sizes_available: [0,0,0,0,0],
+                stock: 300,
+                price: 5.00,
+            }
+        },
     ]
 }
