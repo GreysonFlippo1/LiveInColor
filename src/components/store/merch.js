@@ -37,7 +37,7 @@ module.exports = {
                     'http://www.liveincolormedia.com/Merch_Images/Masks/mask2.jpg',
                     'http://www.liveincolormedia.com/Merch_Images/Masks/mask3.jpg'
                 ],
-                sizes_available: [0,0,0,0,0],
+                sizes_available: null,
                 stock: 50,
                 price: 10.00,
             }
@@ -56,7 +56,7 @@ module.exports = {
                     'http://www.liveincolormedia.com/Merch_Images/Shoes/shoes1.jpg',
                     'http://www.liveincolormedia.com/Merch_Images/Shoes/shoes2.jpg'
                     ],
-                sizes_available: [0,0,0,0,0],
+                sizes_available: null,
                 stock: 0,
                 price: 35.00,
             }
@@ -74,7 +74,7 @@ module.exports = {
                 images: [
                     'http://liveincolormedia.com/Merch_Images/Wristbands/wristbands.JPG',
                     ],
-                sizes_available: [0,0,0,0,0],
+                sizes_available: null,
                 stock: 300,
                 price: 5.00,
             }

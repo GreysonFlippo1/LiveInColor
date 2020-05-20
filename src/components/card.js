@@ -6,6 +6,7 @@ import Select from '@material-ui/core/Select';
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
 import { purple } from '@material-ui/core/colors';
+import { addCartThunk } from './store/cart';
 
 export default function Card(props){
     const [size, setSize] = React.useState('');
@@ -47,9 +48,14 @@ export default function Card(props){
 
       let hideSize = true
       const sizeStyle = {opacity:0}
-      if (props.video && !props.video.snippet.sizes_available) {
+      if (props.video && props.video.snippet.sizes_available) {
           hideSize = false
           sizeStyle.opacity = 1
+      }
+
+      const addToCart = () => {
+        const item = props.video
+        addCartThunk(item);
       }
 
     return (
@@ -96,7 +102,7 @@ export default function Card(props){
                             <MenuItem value={4}>XX Large</MenuItem>
                             </Select>
                         </FormControl>
-                        <ColorButton variant="contained" color="primary" className="add_to_cart expanded_cart">
+                        <ColorButton variant="contained" color="primary" className="add_to_cart expanded_cart" onClick={addToCart}>
                             Add To Cart
                         </ColorButton>
                     </div>
