@@ -10,7 +10,7 @@ import Social from './social';
 export default function Home(){
     const playlist = useSelector(state => state.playlist);
     const dispatch = useDispatch();
-    const [showCart, setCartState] = React.useState(true);
+    const [showCart, setCartState] = React.useState(false);
 
     // eslint-disable-next-line
     useEffect(() => {dispatch(getPlaylistThunk("videos"))}, []);
@@ -39,7 +39,7 @@ export default function Home(){
                 <>
                     {
                         playlist.items.map(video => (
-                            <Card key={video.id} video={video}/>
+                            <Card key={video.id} video={video} kind={playlist.kind}/>
                         ))
                     }
                     
