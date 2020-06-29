@@ -94,19 +94,7 @@ module.exports = {
                     ],
             }
         },
-		{
-            id: 0,
-            snippet: {
-                title: 'Raam Chinnaya',
-                color: '#cf7508',
-                position: 'Designer',
-                positionDescription: 'Artist, Graphic Designer',
-                description: 'What’s up guys, I’m Raam and I have had the opportunity to come up with a whole bunch of designs surrounding the LIC brand. I hope to finalize them and see some designs released real soon. Other than that I am going to be a rising senior at the University of Pittsburgh, where I study Civil Engineering. Drawing and designing is a passion of mine so I am glad that through Live in Color I am able to still hold onto it after all of these years. Hope to update you all soon, peace.',
-                images: [
-                    'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
-                    ],
-            }
-        },
+		
 		{
             id: 0,
             snippet: {
@@ -117,6 +105,19 @@ module.exports = {
                 description: 'Lorenzo has worked closely with LiveInColor since its inception, and produced and assited on multiple Charles Hussle music videos. He also designs clothing, and creates experimental and unique paintings. He is a recent graduate from University of Pittsburgh`s Art program.',
                 images: [
                     'http://www.liveincolormedia.com/Merch_Images/AboutUs/Lorenzo.JPG'
+                    ],
+            }
+        },
+		{
+            id: 0,
+            snippet: {
+                title: 'Raam Chinnaya',
+                color: '#cf7508',
+                position: 'Designer',
+                positionDescription: 'Artist, Graphic Designer',
+                description: 'What’s up guys, I’m Raam and I have had the opportunity to come up with a whole bunch of designs surrounding the LIC brand. I hope to finalize them and see some designs released real soon. Other than that I am going to be a rising senior at the University of Pittsburgh, where I study Civil Engineering. Drawing and designing is a passion of mine so I am glad that through Live in Color I am able to still hold onto it after all of these years. Hope to update you all soon, peace.',
+                images: [
+                    'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
                     ],
             }
         }
