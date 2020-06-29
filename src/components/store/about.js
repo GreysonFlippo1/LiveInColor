@@ -45,7 +45,7 @@ module.exports = {
             id: 0,
             snippet: {
                 title: 'Prit Desai',
-                color: '#e2f200',
+                color: '#dbba00',
                 position: 'Fundraising Manager',
                 positionDescription: '',
                 description: 'To date, Prit has helped us raise close to $5000 for charitable organizations such as PALS, Children’s Miracle Network, and the Boys and Girls Club of America. Prit has helped LiveInColor do this in a variety of ways such as selling scrunchies, donuts, wristbands, stickers, shirts and matching donations. Prit is studying to be a healthcare professional and has a passion for helping people which has helped fuel his endeavors with LiveInColor. In the future, Prit hopes to become a physician’s assistant and also continue his work with LiveInColor as it is our mission to give back to the community in any way we can such as helping raise money, volunteering, or promoting awareness. ',
@@ -58,7 +58,7 @@ module.exports = {
             id: 0,
             snippet: {
                 title: 'Raam Chinnaya',
-                color: '#45f200',
+                color: '#0fb500',
                 position: 'Designer',
                 positionDescription: 'Artist, Graphic Designer',
                 description: 'What’s up guys, I’m Raam and I have had the opportunity to come up with a whole bunch of designs surrounding the LIC brand. I hope to finalize them and see some designs released real soon. Other than that I am going to be a rising senior at the University of Pittsburgh, where I study Civil Engineering. Drawing and designing is a passion of mine so I am glad that through Live in Color I am able to still hold onto it after all of these years. Hope to update you all soon, peace.',
