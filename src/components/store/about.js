@@ -2,6 +2,19 @@ module.exports = {
     id: 0,
     kind: 'about',
     items: [
+		{
+            id: 0,
+            snippet: {
+                title: 'LiveInColor',
+                color: '#ff748c',
+                position: 'Independent Media Platform',
+                positionDescription: '',
+                description: 'LiveInColor is designed to be an independent media platform where we bring a variety of awesome things to you at home such as music, cooking tutorials, stories, reviews, and traveling. Starting with brand new music from Charles Hussle, an up and coming rapper/writer/singer-song-writer, you will surely not be disappointed. Additionally, LiveInColor features very simple cooking tutorials taught by Chef BoyAD, reviews on various topics and traveling vlogs to some of the most beautiful sights in the world. Aside from creating content, at LiveInColor we love to volunteer and help with charity. Since 2019 we have raised close to $5000 for a number of organizations including PALS, which is an organization that creates programs for young adults with down syndrome, the Children’s Miracle Network, and the Boys and Girls club of America. With the help of our new followers we hope to double that fundraising amount  in the coming year and continue to spread happiness, positivity, knowledge and quality music.',
+                images: [
+                    'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
+                    ],
+            }
+        },
         {
             id: 0,
             snippet: {
