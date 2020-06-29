@@ -63,7 +63,7 @@ module.exports = {
                 positionDescription: '',
                 description: 'To date, Prit has helped us raise close to $5000 for charitable organizations such as PALS, Children’s Miracle Network, and the Boys and Girls Club of America. Prit has helped LiveInColor do this in a variety of ways such as selling scrunchies, donuts, wristbands, stickers, shirts and matching donations. Prit is studying to be a healthcare professional and has a passion for helping people which has helped fuel his endeavors with LiveInColor. In the future, Prit hopes to become a physician’s assistant and also continue his work with LiveInColor as it is our mission to give back to the community in any way we can such as helping raise money, volunteering, or promoting awareness. ',
                 images: [
-                    'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
+                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/Prit.JPG'
                     ],
             }
         },
