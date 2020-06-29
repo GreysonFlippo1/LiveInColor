@@ -24,7 +24,7 @@ module.exports = {
                 positionDescription: 'Content Creator, Editor, Labelowner, Manager, Marketing, Finances, Merchandising',
                 description: 'AD has always had a passion for creating goofy videos, but in college with the help of his roommate Hudson, LiveInColor was able to be created. Since starting with videos,  LiveInColor has grown multidimensionally as a brand. Aside from creating videos, AD also owns and manages the label, as well as handling all of the organization`s finances, promotional growth, and merchandising. Of course, none of this would be possible without the help of the extremely dedicated hardworking individuals who comprise the LiveInColor Team. In the future, AD hopes to expose new people to the joy that LiveInColor brings while continuing our mission to give back to the community.',
                 images: [
-                    'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
+                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/AD.JPG'
                     ],
             }
         },        
@@ -50,7 +50,7 @@ module.exports = {
                 positionDescription: 'Rapper, songwriter',
                 description: 'Jonathan Ray, more popularly known as Charles Hussle, is an up and coming rapper, writer, poet, and director hailing from the city of Geneva, New York. He is a senior at the University of Pittsburgh, majoring in English Writing with a minor in Creative Non-Fiction. His inspirations range from Coltrane to Q-Tip, and anything in between.',
                 images: [
-                    'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
+                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/Johnny.JPG'
                     ],
             }
         },
