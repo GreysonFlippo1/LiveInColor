@@ -85,7 +85,7 @@ module.exports = {
             id: 0,
             snippet: {
                 title: 'Greyson Flippo',
-                color: '#aecf08',
+                color: '#8ccf08',
                 position: 'Designer',
                 positionDescription: 'Website Design, Programming, IT support',
                 description: 'Greyson is a Chicago-based website designer who is responsible for programming the LiveInColor website, and for assisting in the various technology that makes LiveInColor possible. He also is the designer of the Music Visualizer for Google Play™ Music, available for Google Chrome on the Chrome Web Store.',
