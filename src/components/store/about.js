@@ -21,7 +21,7 @@ module.exports = {
                 title: 'Aditya Sharma',
                 color: '#ad009f',
                 position: 'Co-founder, LiveInColor',
-                positionDescription: 'Content Creator, Editor, Labelowner, Manager, Marketing, Finances, Merchandising',
+                positionDescription: 'Content Creator, Editor, Labelowner, Manager',
                 description: 'AD has always had a passion for creating goofy videos, but in college with the help of his roommate Hudson, LiveInColor was able to be created. Since starting with videos,  LiveInColor has grown multidimensionally as a brand. Aside from creating videos, AD also owns and manages the label, as well as handling all of the organization`s finances, promotional growth, and merchandising. Of course, none of this would be possible without the help of the extremely dedicated hardworking individuals who comprise the LiveInColor Team. In the future, AD hopes to expose new people to the joy that LiveInColor brings while continuing our mission to give back to the community.',
                 images: [
                     'http://www.liveincolormedia.com/Merch_Images/AboutUs/AD.JPG'
@@ -34,7 +34,7 @@ module.exports = {
                 title: 'Hudson Havenhill',
                 color: '#5700ad',
                 position: 'Co-founder, LiveInColor',
-                positionDescription: 'Video editing and production, graphic design, music production, photography, website design',
+                positionDescription: 'Video editing, graphic design, music production',
                 description: 'As part of LiveInColor, Hudson handles much of the behind-the-scenes work in video editing and production, as well in designing LiveInColor’s aesthetic. He also makes the music heard in many of our videos, and takes a lot of the photos on our Instagram. In his free time he loves playing video games, reading, walking in nature, and watching lectures. He hopes to expand his music and video making experience through future LiveInColor projects, and collaborating with talented creators. He is currently pursuing a Bachelor’s degree in History and Political Science at the University of Pittsburgh.',
                 images: [
                     'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
@@ -113,7 +113,7 @@ module.exports = {
                 title: 'Lorenzo Bucchalter',
                 color: '#cf3008',
                 position: 'Designer',
-                positionDescription: 'Artist, Graphic Designer, Video Production, Clothing Design, Painting',
+                positionDescription: 'Artist, Graphic Designer, Video Production',
                 description: 'Lorenzo has worked closely with LiveInColor since its inception, and produced and assited on multiple Charles Hussle music videos. He also designs clothing, and creates experimental and unique paintings. He is a recent graduate from University of Pittsburgh`s Art program.',
                 images: [
                     'http://www.liveincolormedia.com/Merch_Images/AboutUs/Lorenzo.JPG'
