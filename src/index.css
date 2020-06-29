@@ -15,6 +15,10 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+}
+
 .home_page{
   position:relative;
   top:0px;
@@ -169,10 +173,8 @@ code {
   border-bottom: 5px solid rgb(82, 255, 143, 1);
 }
 
-
 .cards{
   width: 996px;
-  height: 150px;
   border-radius:20px;
   margin-bottom:30px;
   border:2px solid #dddddd;
@@ -181,15 +183,12 @@ code {
   position: relative;
   animation: fade .5s;
   animation-fill-mode: forwards;
+  display: flex;
 }
 
 .cards:hover{
   cursor:pointer;
   background-color:#dddddd;
-}
-
-.expanded{
-  height: 430px;
 }
 
 .expanded:hover{
@@ -202,16 +201,14 @@ code {
 }
 
 .thumbnail{
-  position:absolute;
   width:213px;
   height:120px;
   background-color:#999999;
-  top:15px;
-  left:23px;
   border-radius:15px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .image_gallery{
@@ -249,37 +246,40 @@ code {
   background-color:rgba(200,200,200,0.9);
 }
 
+.card_container{
+  padding: 15px;
+}
+
 .card_title{
-  position:absolute;
-  top:15px;
-  left:259px;
-  height:30px;
   font-family:'Roboto';
   color:#555555;
   font-size:22px;
+  width:718px;
+  font-weight:bold;
+  margin-bottom: 15px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  width:500px;
-  font-weight:bold;
 }
 
 .card_description{
-  position:absolute;
-  left:259px;
-  height:54px;
   line-height: 27px;   
   font-family:'Roboto';
   color:#999999;
   font-size:20px;
   overflow: hidden;
-  top:52px;
-  width:718px;
+  width:526px;
+  max-height: 54px;
+  margin-bottom: 7px;
+}
+
+.purchase_options{
+  width:526px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .card_price{
-  position:absolute;
-  left:259px;
   height:30px;
   font-family:'Roboto';
   color:#999999;
@@ -287,13 +287,10 @@ code {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  top:115px;
-  width:300px;
+  margin-right: 15px;
 }
 
 .card_owner{
-  position:absolute;
-  left:259px;
   height:30px;
   font-family:'Roboto';
   color:#777777;
@@ -301,12 +298,13 @@ code {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  top:115px;
   width:300px;
+  line-height: 18px;
+  max-height: 18px;
+  margin-bottom: 0px;
 }
 
 .expanded_info{
-  left: 446px;
   width: 526px;
 }
 
@@ -317,38 +315,26 @@ code {
 
 .expanded_description{
   font-size:25px;
-  height:270px;
   line-height: 27px; 
-  top:90px;
+  max-height: 1000px;
 }
 
 .expanded_price{
   font-size:40px;
   height:50px;
-  top:365px;
 }
 
 .dropdown{
-  width: 150px;
-  position:absolute;
-  left:680px;
-  top:93px;
+  width: 200px;
 }
 
 .expanded_dropdown{
-  top:360px;
 }
 
 .add_to_cart{  
-  position:absolute;
-  left:700px;
-  top:105px;
 }
 
 .expanded_cart{
-  position:absolute;
-  left:700px;
-  top:373px;
 }
 
 .loading_animation{
@@ -442,6 +428,10 @@ code {
   font-size:15px;
 }
 
+.single_line{
+  max-height:27px;
+}
+
 a:visited {color:#555555; }
 a:hover {color:#555555; }
 a:focus {color:#555555; }
@@ -481,54 +471,36 @@ a:hover, a:active {color:#555555 }
     height:100vw;
   }
 
-  .expanded{
-    height:130vw;
-  }
-
   .thumbnail{
     width:99vw;
     height:56.3vw;
-    left:0px;
-    top:0px;
     border-radius:18px;
   }
 
   .card_title{
-    left:20px;
     width:80vw;
-    top:60vw;
     font-size:25px;
   }
 
   .card_description{
-    left:20px;
     width:80vw;
-    top:70vw;
     font-size:20px;
   }
 
   .card_owner{
-    left:20px;
     width:80vw;
-    top:90vw;
   }
 
   .card_price{
-    left:20px;
     width:80vw;
-    top:90vw;
   }
 
   .dropdown{
     width: 60vw;
-    left:20vw;
-    top:100vw;
   }
   
   .add_to_cart{  
     width: 60vw;
-    left:20vw;
-    top:102vw;
   }
 
   .footer{
@@ -561,7 +533,7 @@ a:hover, a:active {color:#555555 }
   }
 
   .single_line{
-    height:27px;
+    max-height:27px;
   }
 
   /* These are here to remove styles on mobile */
