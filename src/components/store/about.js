@@ -77,7 +77,7 @@ module.exports = {
                 positionDescription: 'Artist, Video Producer, Clothing Design',
                 description: 'Huw is a multimedia artist working in video/animation, game development and textiles. He’s produced several music videos in collaboration with LiveInColor and Charles Hussle, and works with LIC members on team projects. He also works experimentally in clothing and accessory design, using repurposed materials to create limited-edition pieces. Huw is a senior at Carnegie Mellon University studying fine arts and human-computer interaction.',
                 images: [
-                    'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
+                    'https://media.sketchfab.com/avatars/4871af6a063a496eac612c494634a91b/984890fd62784cb4b376c2ce38f14477.jpeg'
                     ],
             }
         },
