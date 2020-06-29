@@ -24,7 +24,7 @@ export default function Home(){
                 <>
                     {
                         playlist.items.map(video => (
-                            <Card key={video.id} video={video}/>
+                            <Card key={video.id} video={video} kind={playlist.kind}/>
                         ))
                     }
                     
