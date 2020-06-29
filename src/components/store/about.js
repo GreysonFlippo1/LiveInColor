@@ -6,7 +6,7 @@ module.exports = {
             id: 0,
             snippet: {
                 title: 'LiveInColor',
-                color: '#cccccc',
+                color: '#999999',
                 position: 'Independent Media Platform',
                 positionDescription: '',
                 description: 'LiveInColor is designed to be an independent media platform where we bring a variety of awesome things to you at home such as music, cooking tutorials, stories, reviews, and traveling. Starting with brand new music from Charles Hussle, an up and coming rapper/writer/singer-song-writer, you will surely not be disappointed. Additionally, LiveInColor features very simple cooking tutorials taught by Chef BoyAD, reviews on various topics and traveling vlogs to some of the most beautiful sights in the world. Aside from creating content, at LiveInColor we love to volunteer and help with charity. Since 2019 we have raised close to $5000 for a number of organizations including PALS, which is an organization that creates programs for young adults with down syndrome, the Children’s Miracle Network, and the Boys and Girls club of America. With the help of our new followers we hope to double that fundraising amount  in the coming year and continue to spread happiness, positivity, knowledge and quality music.',
@@ -44,6 +44,19 @@ module.exports = {
 		{
             id: 0,
             snippet: {
+                title: 'Charles Hussle',
+                color: '#2266ff',
+                position: 'Artist',
+                positionDescription: 'Rapper, songwriter',
+                description: 'Jonathan Ray, more popularly known as Charles Hussle. is an up and coming rapper, writer, poet, and director hailing from the city of Geneva, New York. He is a senior at the University of Pittsburgh, majoring in English Writing with a minor in Creative Non-Fiction. His inspirations range from Coltrane to Q-Tip and anything in between.',
+                images: [
+                    'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
+                    ],
+            }
+        },
+		{
+            id: 0,
+            snippet: {
                 title: 'Prit Desai',
                 color: '#dbba00',
                 position: 'Fundraising Manager',
@@ -54,19 +67,7 @@ module.exports = {
                     ],
             }
         },
-		{
-            id: 0,
-            snippet: {
-                title: 'Raam Chinnaya',
-                color: '#0fb500',
-                position: 'Designer',
-                positionDescription: 'Artist, Graphic Designer',
-                description: 'What’s up guys, I’m Raam and I have had the opportunity to come up with a whole bunch of designs surrounding the LIC brand. I hope to finalize them and see some designs released real soon. Other than that I am going to be a rising senior at the University of Pittsburgh, where I study Civil Engineering. Drawing and designing is a passion of mine so I am glad that through Live in Color I am able to still hold onto it after all of these years. Hope to update you all soon, peace.',
-                images: [
-                    'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
-                    ],
-            }
-        },
+		
 		{
             id: 0,
             snippet: {
@@ -93,5 +94,31 @@ module.exports = {
                     ],
             }
         },
+		{
+            id: 0,
+            snippet: {
+                title: 'Raam Chinnaya',
+                color: '#0fb500',
+                position: 'Designer',
+                positionDescription: 'Artist, Graphic Designer',
+                description: 'What’s up guys, I’m Raam and I have had the opportunity to come up with a whole bunch of designs surrounding the LIC brand. I hope to finalize them and see some designs released real soon. Other than that I am going to be a rising senior at the University of Pittsburgh, where I study Civil Engineering. Drawing and designing is a passion of mine so I am glad that through Live in Color I am able to still hold onto it after all of these years. Hope to update you all soon, peace.',
+                images: [
+                    'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
+                    ],
+            }
+        },
+		{
+            id: 0,
+            snippet: {
+                title: 'Lorenzo Bucchalter',
+                color: '#0fb500',
+                position: 'Designer',
+                positionDescription: 'Artist, Graphic Designer, Video Production, Clothing Design, Painting',
+                description: 'Lorenzo has worked closely with LiveInColor since its inception, and produced and assited on multiple Charles Hussle music videos. He also designs clothing, and creates experimental and unique paintings. He is a recent graduate from University of Pittsburgh`s Art program.',
+                images: [
+                    'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
+                    ],
+            }
+        }
     ]
 }
