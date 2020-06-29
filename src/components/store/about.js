@@ -116,7 +116,7 @@ module.exports = {
                 positionDescription: 'Artist, Graphic Designer, Video Production, Clothing Design, Painting',
                 description: 'Lorenzo has worked closely with LiveInColor since its inception, and produced and assited on multiple Charles Hussle music videos. He also designs clothing, and creates experimental and unique paintings. He is a recent graduate from University of Pittsburgh`s Art program.',
                 images: [
-                    'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
+                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/Lorenzo.JPG'
                     ],
             }
         }
