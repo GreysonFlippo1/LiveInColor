@@ -90,7 +90,7 @@ module.exports = {
                 positionDescription: 'Website Design, Programming, IT support',
                 description: 'Greyson is a Chicago-based website designer who is responsible for programming the LiveInColor website, and for assisting in the various technology that makes LiveInColor possible. He also is the designer of the Music Visualizer for Google Play™ Music, available for Google Chrome on the Chrome Web Store.',
                 images: [
-                    'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
+                    'https://media-exp1.licdn.com/dms/image/C4D03AQEipwBIbiOz3g/profile-displayphoto-shrink_800_800/0?e=1599091200&v=beta&t=GDvM02lQ7WbpoAyDDkkaW1S1ssY8VXJuBrEJ7Swqb7Y'
                     ],
             }
         },
