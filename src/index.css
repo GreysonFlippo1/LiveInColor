@@ -29,7 +29,103 @@ a {
   align-items: center;
 }
 
+.cart_icon{
+  width:60px;
+  height:60px;
+  position:absolute;
+  margin-top:10px;
+  margin-left:470px;
+  border-radius: 50%;
+  z-index: 3;
+  background-image:url('http://liveincolormedia.com/Merch_Images/carticon.png');
+  background-size:65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  transition: background-color .3s;
+}
+
+.cart_icon:hover{
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+
+.cart_counter{
+  background-color:rgba(255,0,228,1);
+  color: #ffffff;
+  width:20px;
+  height:19px;
+  position: absolute;
+  bottom:3px;
+  right:3px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 15px;
+  padding-top:1px;
+}
+
+.cart_background{
+  background-color: rgba(0,0,0,0.5);
+  z-index:1;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  animation: fadeIn 0.2s linear forwards;
+}
+
+.cart_modal{
+  position: absolute;
+  z-index: 2;
+  background-color:#ffffff;
+  border:2px solid #dddddd;
+  width:916px;
+  border-radius: 30px;
+  padding-top:40px;
+  padding-bottom:30px;
+  padding-left:40px;
+  padding-right:40px;
+  top:70px;
+  opacity: 0;
+  animation: fadeIn 0.2s linear forwards;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.cart_title{
+  font-family:'Roboto';
+  color:#666666;
+  font-size:50px;
+  font-weight:bold;
+}
+
+.divider{
+  width:60%;
+  height:2px;
+  margin-top:-10px;
+  background-color: rgba(0,240,255,1);
+}
+
+.disclaimer{
+  font-family:'Roboto';
+  margin-top:40px;
+  font-size:30px;
+  color:#aaaaaa;
+  margin-bottom:40px;
+}
+
+.mailto{
+  color: rgba(255,0,228,1);
+  margin-left:6px;
+}
+
 .logo_image{
+  margin-top:30px;
   width:600px;
   height:600px;
   background-image: url('http://flippoweb.com/liveincolor/logo.png');
@@ -122,6 +218,7 @@ a {
 
 .next_button{
   right:10px;
+  transform: scale(-1, 1);
 }
 
 .prev_button{
@@ -139,7 +236,9 @@ a {
   border-radius: 50%;
   position:absolute;
   bottom:20px;
-  box-shadow:0px 0px 2px 2px #333333;
+  background-image:url('http://liveincolormedia.com/Merch_Images/arrow.png');
+  background-size:contain;
+  background-position: center;
 }
 
 .slide_button:hover{

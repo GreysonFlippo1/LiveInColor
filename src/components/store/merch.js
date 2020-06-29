@@ -34,11 +34,12 @@ module.exports = {
                 },
                 images: [
                     'http://www.liveincolormedia.com/Merch_Images/Masks/maskJohnny.jpeg',
-                    'http://www.liveincolormedia.com/Merch_Images/Masks/mask2.jpg'
+                    'http://www.liveincolormedia.com/Merch_Images/Masks/mask2.jpg',
+                    'http://www.liveincolormedia.com/Merch_Images/Masks/mask3.jpg'
                 ],
-                sizes_available: [0,0,0,0,0],
-                stock: 0,
-                price: 15.00,
+                sizes_available: null,
+                stock: 50,
+                price: 10.00,
             }
         },
         {
@@ -55,9 +56,27 @@ module.exports = {
                     'http://www.liveincolormedia.com/Merch_Images/Shoes/shoes1.jpg',
                     'http://www.liveincolormedia.com/Merch_Images/Shoes/shoes2.jpg'
                     ],
-                sizes_available: [0,0,0,0,0],
+                sizes_available: null,
                 stock: 0,
                 price: 35.00,
+            }
+        },
+        {
+            id: 4,
+            snippet: {
+                title: 'Wristbands',
+                description: 'The colorful wristbands add the perfect amount of style to any fit you own. Get 5 different color combinations for the ultimate mix and match! All profits will go to the Boys and Girls Club!',
+                thumbnails: {
+                    medium: {
+                        url:'http://liveincolormedia.com/Merch_Images/Wristbands/wristbands.JPG'
+                    }
+                },
+                images: [
+                    'http://liveincolormedia.com/Merch_Images/Wristbands/wristbands.JPG',
+                    ],
+                sizes_available: null,
+                stock: 300,
+                price: 5.00,
             }
         },
     ]

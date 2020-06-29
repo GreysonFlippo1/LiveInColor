@@ -8,6 +8,7 @@ import {
 } from 'connected-react-router';
 import thunkMiddleware from 'redux-thunk';
 import playlist from './playlist';
+import cart from './cart';
 
 export const history = process.browser
   ? createBrowserHistory()
@@ -16,6 +17,7 @@ const middlewareList = [thunkMiddleware, historyMiddleware(history)];
 
 const reducer = combineReducers({
   playlist,
+  cart,
   router: connectRouter(history)
 });
 

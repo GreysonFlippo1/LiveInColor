@@ -6,6 +6,7 @@ import Select from '@material-ui/core/Select';
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
 import { purple } from '@material-ui/core/colors';
+import { addCartThunk } from './store/cart';
 
 export default function Card(props){
     const [size, setSize] = React.useState('');
