@@ -37,7 +37,7 @@ module.exports = {
                 positionDescription: 'Video editing, graphic design, music production',
                 description: 'As part of LiveInColor, Hudson handles much of the behind-the-scenes work in video editing and production, as well in designing LiveInColor’s aesthetic. He also makes the music heard in many of our videos, and takes a lot of the photos on our Instagram. In his free time he loves playing video games, reading, walking in nature, and watching lectures. He hopes to expand his music and video making experience through future LiveInColor projects, and collaborating with talented creators. He is currently pursuing a Bachelor’s degree in History and Political Science at the University of Pittsburgh.',
                 images: [
-                    'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
+                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/Hudson.jpg'
                     ],
             }
         },
