@@ -85,7 +85,7 @@ module.exports = {
             id: 0,
             snippet: {
                 title: 'Greyson Flippo',
-                color: '#8ccf08',
+                color: '#cfb408',
                 position: 'Designer',
                 positionDescription: 'Website Design, Programming, IT support',
                 description: 'Greyson is a Chicago-based website designer who is responsible for programming the LiveInColor website, and for assisting in the various technology that makes LiveInColor possible. He also is the designer of the Music Visualizer for Google Play™ Music, available for Google Chrome on the Chrome Web Store.',
@@ -98,7 +98,7 @@ module.exports = {
             id: 0,
             snippet: {
                 title: 'Raam Chinnaya',
-                color: '#cf9a08',
+                color: '#cf7508',
                 position: 'Designer',
                 positionDescription: 'Artist, Graphic Designer',
                 description: 'What’s up guys, I’m Raam and I have had the opportunity to come up with a whole bunch of designs surrounding the LIC brand. I hope to finalize them and see some designs released real soon. Other than that I am going to be a rising senior at the University of Pittsburgh, where I study Civil Engineering. Drawing and designing is a passion of mine so I am glad that through Live in Color I am able to still hold onto it after all of these years. Hope to update you all soon, peace.',
