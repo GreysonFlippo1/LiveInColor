@@ -48,7 +48,7 @@ module.exports = {
                 color: '#2266ff',
                 position: 'Artist',
                 positionDescription: 'Rapper, songwriter',
-                description: 'Jonathan Ray, more popularly known as Charles Hussle. is an up and coming rapper, writer, poet, and director hailing from the city of Geneva, New York. He is a senior at the University of Pittsburgh, majoring in English Writing with a minor in Creative Non-Fiction. His inspirations range from Coltrane to Q-Tip and anything in between.',
+                description: 'Jonathan Ray, more popularly known as Charles Hussle, is an up and coming rapper, writer, poet, and director hailing from the city of Geneva, New York. He is a senior at the University of Pittsburgh, majoring in English Writing with a minor in Creative Non-Fiction. His inspirations range from Coltrane to Q-Tip, and anything in between.',
                 images: [
                     'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
                     ],
