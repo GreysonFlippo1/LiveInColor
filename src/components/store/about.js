@@ -32,7 +32,7 @@ module.exports = {
             id: 0,
             snippet: {
                 title: 'Prit Desai',
-                color: '#ff748c',
+                color: '#e2f200',
                 position: 'Fundraising Manager',
                 positionDescription: '',
                 description: 'To date, Prit has helped us raise close to $5000 for charitable organizations such as PALS, Children’s Miracle Network, and the Boys and Girls Club of America. Prit has helped LiveInColor do this in a variety of ways such as selling scrunchies, donuts, wristbands, stickers, shirts and matching donations. Prit is studying to be a healthcare professional and has a passion for helping people which has helped fuel his endeavors with LiveInColor. In the future, Prit hopes to become a physician’s assistant and also continue his work with LiveInColor as it is our mission to give back to the community in any way we can such as helping raise money, volunteering, or promoting awareness. ',
@@ -45,7 +45,7 @@ module.exports = {
             id: 0,
             snippet: {
                 title: 'Raam Chinnaya',
-                color: '#ff748c',
+                color: '#45f200',
                 position: 'Designer',
                 positionDescription: 'Artist, Graphic Designer',
                 description: 'What’s up guys, I’m Raam and I have had the opportunity to come up with a whole bunch of designs surrounding the LIC brand. I hope to finalize them and see some designs released real soon. Other than that I am going to be a rising senior at the University of Pittsburgh, where I study Civil Engineering. Drawing and designing is a passion of mine so I am glad that through Live in Color I am able to still hold onto it after all of these years. Hope to update you all soon, peace.',
@@ -58,7 +58,7 @@ module.exports = {
             id: 0,
             snippet: {
                 title: 'Huw Messie',
-                color: '#ff748c',
+                color: '#f20041',
                 position: 'Designer',
                 positionDescription: 'Artist, Video Producer, Clothing Design',
                 description: 'Huw is a multimedia artist working in video/animation, game development and textiles. He’s produced several music videos in collaboration with LiveInColor and Charles Hussle, and works with LIC members on team projects. He also works experimentally in clothing and accessory design, using repurposed materials to create limited-edition pieces. Huw is a senior at Carnegie Mellon University studying fine arts and human-computer interaction.',
@@ -71,7 +71,7 @@ module.exports = {
             id: 0,
             snippet: {
                 title: 'Greyson Flippo',
-                color: '#ff748c',
+                color: '#f27500',
                 position: 'Designer',
                 positionDescription: 'Website Design, Programming, IT support',
                 description: 'Greyson is a Chicago-based website designer who is responsible for programming the LiveInColor website, and for assisting in the various technology that makes LiveInColor possible. He also is the designer of the Music Visualizer for Google Play™ Music, available for Google Chrome on the Chrome Web Store.',
