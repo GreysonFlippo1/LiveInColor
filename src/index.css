@@ -33,8 +33,8 @@ a {
   width:60px;
   height:60px;
   position:absolute;
-  margin-top:10px;
-  margin-left:470px;
+  top:10px;
+  margin-left: 940px;
   border-radius: 50%;
   z-index: 3;
   background-image:url('http://liveincolormedia.com/Merch_Images/carticon.png');
@@ -54,14 +54,14 @@ a {
   background-color:rgba(255,0,228,1);
   color: #ffffff;
   width:20px;
-  height:19px;
+  height:20px;
   position: absolute;
   bottom:3px;
   right:3px;
   border-radius: 50%;
   text-align: center;
   font-size: 15px;
-  padding-top:1px;
+  line-height: 20px;
 }
 
 .cart_background{
@@ -443,6 +443,10 @@ a:hover, a:active {color:#555555 }
 @media only screen and (max-device-width: 1000px) {
   body{
     background-color: #eeeeee;
+  }
+
+  .cart_icon{
+    margin-left: calc(100vw - 90px)
   }
 
   .logo_image{

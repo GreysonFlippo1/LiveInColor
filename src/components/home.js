@@ -21,7 +21,7 @@ export default function Home(){
 
     return(
         <div className="home_page">
-            <div className="cart_icon" onClick={toggleCart} style={{display: 'none'}}>
+            <div className="cart_icon" onClick={toggleCart}>
                 <div className="cart_counter">1</div>
             </div>
             {showCart && (
