@@ -438,6 +438,10 @@ a:focus {color:#555555; }
 a:hover, a:active {color:#555555 }
 
 @media only screen and (max-device-width: 1000px) {
+  body{
+    background-color: #eeeeee;
+  }
+
   .logo_image{
     width:100vw;
     height:100vw;
@@ -445,6 +449,9 @@ a:hover, a:active {color:#555555 }
     background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
+    background-color:#fff;
+    margin-top: 0px;
+    margin-bottom: -30px;
   }
 
   .navigation_bar{
@@ -468,11 +475,15 @@ a:hover, a:active {color:#555555 }
 
   .cards{
     width:99vw;
-    height:100vw;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding-bottom: 15px;
+    border:1px solid #dddddd;
   }
 
   .thumbnail{
-    width:99vw;
+    width:calc(99vw - 30px);
     height:56.3vw;
     border-radius:18px;
   }

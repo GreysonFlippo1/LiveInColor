@@ -16,7 +16,7 @@ module.exports = {
             }
         },
         {
-            id: 0,
+            id: 1,
             snippet: {
                 title: 'Aditya Sharma',
                 color: '#ad009f',
@@ -29,7 +29,7 @@ module.exports = {
             }
         },        
         {
-            id: 0,
+            id: 2,
             snippet: {
                 title: 'Hudson Havenhill',
                 color: '#5700ad',
@@ -42,7 +42,7 @@ module.exports = {
             }
         },
 		{
-            id: 0,
+            id: 3,
             snippet: {
                 title: 'Charles Hussle',
                 color: '#1a00ad',
@@ -55,7 +55,7 @@ module.exports = {
             }
         },
 		{
-            id: 0,
+            id: 4,
             snippet: {
                 title: 'Prit Desai',
                 color: '#008aad',
@@ -69,7 +69,7 @@ module.exports = {
         },
 		
 		{
-            id: 0,
+            id: 5,
             snippet: {
                 title: 'Huw Messie',
                 color: '#00ad65',
@@ -82,7 +82,7 @@ module.exports = {
             }
         },
 		{
-            id: 0,
+            id: 6,
             snippet: {
                 title: 'Greyson Flippo',
                 color: '#cfb408',
@@ -90,13 +90,13 @@ module.exports = {
                 positionDescription: 'Website Design, Programming, IT support',
                 description: 'Greyson is a Chicago-based website designer who is responsible for programming the LiveInColor website, and for assisting in the various technology that makes LiveInColor possible. He also is the designer of the Music Visualizer for Google Play™ Music, available for Google Chrome on the Chrome Web Store.',
                 images: [
-                    'https://media-exp1.licdn.com/dms/image/C4D03AQEipwBIbiOz3g/profile-displayphoto-shrink_800_800/0?e=1599091200&v=beta&t=GDvM02lQ7WbpoAyDDkkaW1S1ssY8VXJuBrEJ7Swqb7Y'
+                    'https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/74529529_1224952257707358_7160656105381560320_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=RhV-ivFNvXwAX-qfPSD&_nc_ht=scontent-ort2-2.xx&oh=4f782bcbb3bc5dfe5beea620c259d150&oe=5F23F4A9'
                     ],
             }
         },
 		
 		{
-            id: 0,
+            id: 7,
             snippet: {
                 title: 'Lorenzo Bucchalter',
                 color: '#cf3008',
@@ -109,7 +109,7 @@ module.exports = {
             }
         },
 		{
-            id: 0,
+            id: 8,
             snippet: {
                 title: 'Raam Chinnaya',
                 color: '#cf7508',
