@@ -13,7 +13,7 @@ export default function Home(){
     const [showCart, setCartState] = React.useState(false);
 
     // eslint-disable-next-line
-    useEffect(() => {dispatch(getPlaylistThunk("videos"))}, []);
+    useEffect(() => {dispatch(getPlaylistThunk("music"))}, []);
 
     const toggleCart = () => {
         setCartState(!showCart)

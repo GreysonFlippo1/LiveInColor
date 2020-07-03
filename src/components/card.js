@@ -68,8 +68,12 @@ export default function Card(props){
                     <div className="cards expanded">
                         <div className="card_container">
                             <div className="thumbnail image_gallery" style={{backgroundImage:`url(${props.video.snippet.images[image]})`}} >
+                                {props.video.snippet.images.length > 1 && (
+                                    <>
                                 <div className="next_button slide_button" onClick={handleNext}>&#8594;</div>
                                 <div className="prev_button slide_button" onClick={handlePrev}>&#8592;</div>
+                                </>
+                                )}
                             </div>
                         </div>
                         <div className="card_container">
