@@ -98,10 +98,10 @@ a {
 }
 
 .cart_title{
-  font-family:'Roboto';
   color:#666666;
   font-size:50px;
   font-weight:bold;
+  font-family: 'Pacifico';
 }
 
 .divider{
