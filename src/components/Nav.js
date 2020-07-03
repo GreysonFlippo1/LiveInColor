@@ -16,7 +16,7 @@ export default function Nav(){
             <p className="navigation_options option1" onClick={()=>{clickHandler("music")}}>Charles Hussle</p>
             <p className="navigation_options option2" onClick={()=>{clickHandler("videos")}}>Videos</p>
             <p className="navigation_options option3" onClick={()=>{clickHandler("about")}}>About Us</p>
-            {/* <p className="navigation_options option4" onClick={()=>{clickHandler("merch")}}>Merch</p> */}
+            <p className="navigation_options option4" onClick={()=>{clickHandler("merch")}}>Merch</p>
         </div>
     )
 }

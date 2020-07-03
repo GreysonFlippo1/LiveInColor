@@ -248,6 +248,7 @@ a {
 
 .card_container{
   padding: 15px;
+  position: relative;
 }
 
 .card_title{
@@ -277,6 +278,8 @@ a {
   width:526px;
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  bottom: 15px;
 }
 
 .card_price{
@@ -502,15 +505,22 @@ a:hover, a:active {color:#555555 }
     width:80vw;
   }
 
+  .purchase_options{
+    margin-top: 30px;
+    width:calc(99vw - 30px);
+    flex-direction: column;
+    position: relative;
+  }
+
   .card_price{
-    width:80vw;
+    width: 60vw;
   }
 
   .dropdown{
     width: 60vw;
   }
   
-  .add_to_cart{  
+  .add_to_cart{
     width: 60vw;
   }
 
