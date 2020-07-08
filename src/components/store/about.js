@@ -24,7 +24,7 @@ module.exports = {
                 positionDescription: 'Content Creator, Editor, Labelowner, Manager',
                 description: 'AD has always had a passion for creating goofy videos, but in college with the help of his roommate Hudson, LiveInColor was able to be created. Since starting with videos,  LiveInColor has grown multidimensionally as a brand. Aside from creating videos, AD also owns and manages the label, as well as handling all of the organization`s finances, promotional growth, and merchandising. Of course, none of this would be possible without the help of the extremely dedicated hardworking individuals who comprise the LiveInColor Team. In the future, AD hopes to expose new people to the joy that LiveInColor brings while continuing our mission to give back to the community.',
                 images: [
-                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/AD.JPG'
+                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/AD.jpeg'
                     ],
             }
         },        
@@ -35,9 +35,9 @@ module.exports = {
                 color: '#5700ad',
                 position: 'Co-founder, LiveInColor',
                 positionDescription: 'Video editing, graphic design, music production',
-                description: 'As part of LiveInColor, Hudson handles much of the behind-the-scenes work in video editing and production, as well in designing LiveInColor’s aesthetic. He also makes the music heard in many of our videos, and takes a lot of the photos on our Instagram. In his free time he loves playing video games, reading, walking in nature, and watching lectures. He hopes to expand his music and video making experience through future LiveInColor projects, and collaborating with talented creators. He is currently pursuing a Bachelor’s degree in History and Political Science at the University of Pittsburgh.',
+                description: 'As part of LiveInColor, Hudson handles much of the behind-the-scenes work in video editing and production, as well in designing LiveInColor’s aesthetic. He also makes the music heard in many of our videos, and takes a lot of the photos on our Instagram. In his free time he loves playing video games, reading, walking in nature, and watching lectures. He hopes to continue his creative pursuits and build his portfolio with LiveInColor. He is currently pursuing a Bachelor’s degree in History and Political Science at the University of Pittsburgh.',
                 images: [
-                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/Hudson.jpg'
+                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/Hudson.jpeg'
                     ],
             }
         },
@@ -63,7 +63,7 @@ module.exports = {
                 positionDescription: '',
                 description: 'To date, Prit has helped us raise close to $5000 for charitable organizations such as PALS, Children’s Miracle Network, and the Boys and Girls Club of America. Prit has helped LiveInColor do this in a variety of ways such as selling scrunchies, donuts, wristbands, stickers, shirts and matching donations. Prit is studying to be a healthcare professional and has a passion for helping people which has helped fuel his endeavors with LiveInColor. In the future, Prit hopes to become a physician’s assistant and also continue his work with LiveInColor as it is our mission to give back to the community in any way we can such as helping raise money, volunteering, or promoting awareness. ',
                 images: [
-                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/Prit.JPG'
+                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/Prit.jpeg'
                     ],
             }
         },
@@ -117,7 +117,7 @@ module.exports = {
                 positionDescription: 'Artist, Graphic Designer',
                 description: 'What’s up guys, I’m Raam and I have had the opportunity to come up with a whole bunch of designs surrounding the LIC brand. I hope to finalize them and see some designs released real soon. Other than that I am going to be a rising senior at the University of Pittsburgh, where I study Civil Engineering. Drawing and designing is a passion of mine so I am glad that through Live in Color I am able to still hold onto it after all of these years. Hope to update you all soon, peace.',
                 images: [
-                    'https://pbs.twimg.com/profile_images/1089300631364554753/izCyK65G_400x400.jpg'
+                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/Raam.JPG'
                     ],
             }
         }
