@@ -119,8 +119,6 @@ module.exports = {
                     'http://www.liveincolormedia.com/Merch_Images/AboutUs/Lorenzo.JPG'
                     ],
             }
-        }
-		
-        }
+        }	
     ]
 }
