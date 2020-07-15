@@ -101,7 +101,7 @@ module.exports = {
                 color: '#cf3008',
                 position: 'Designer',
                 positionDescription: 'Artist, Graphic Designer',
-                description: 'What’s up guys, I’m Raam and I have had the opportunity to come up with a whole bunch of designs surrounding the LIC brand. I hope to finalize them and see some designs released real soon. Other than that I am going to be a rising senior at the University of Pittsburgh, where I study Civil Engineering. Drawing and designing is a passion of mine so I am glad that through Live in Color I am able to still hold onto it after all of these years. Hope to update you all soon, peace.',
+                description: 'Raam has had the opportunity to come up with a whole bunch of designs surrounding the LIC brand this summer. He is going to be a rising senior at the University of Pittsburgh, where he studies Civil Engineering. Drawing and designing is a passion of his so through Live in Color, he’s able to still hold onto it after all of these years.',
                 images: [
                     'http://www.liveincolormedia.com/Merch_Images/AboutUs/Raam.JPG'
                     ],
