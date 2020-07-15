@@ -24,7 +24,7 @@ module.exports = {
                 positionDescription: 'Content Creator, Editor, Labelowner, Manager',
                 description: 'AD has always had a passion for creating goofy videos, but in college with the help of his roommate Hudson, LiveInColor was able to be created. Since starting with videos,  LiveInColor has grown multidimensionally as a brand. Aside from creating videos, AD also owns and manages the label, as well as handling all of the organization`s finances, promotional growth, and merchandising. Of course, none of this would be possible without the help of the extremely dedicated hardworking individuals who comprise the LiveInColor Team. In the future, AD hopes to expose new people to the joy that LiveInColor brings while continuing our mission to give back to the community.',
                 images: [
-                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/AD.jpeg'
+                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/AD.JPG'
                     ],
             }
         },        
@@ -94,12 +94,24 @@ module.exports = {
                     ],
             }
         },
-		
+		{
+            id: 8,
+            snippet: {
+                title: 'Raam Chinnaya',
+                color: '#cf3008',
+                position: 'Designer',
+                positionDescription: 'Artist, Graphic Designer',
+                description: 'What’s up guys, I’m Raam and I have had the opportunity to come up with a whole bunch of designs surrounding the LIC brand. I hope to finalize them and see some designs released real soon. Other than that I am going to be a rising senior at the University of Pittsburgh, where I study Civil Engineering. Drawing and designing is a passion of mine so I am glad that through Live in Color I am able to still hold onto it after all of these years. Hope to update you all soon, peace.',
+                images: [
+                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/Raam.JPG'
+                    ],
+        	}
+		},
 		{
             id: 7,
             snippet: {
                 title: 'Lorenzo Bucchalter',
-                color: '#cf3008',
+                color: '#cf7508',
                 position: 'Designer',
                 positionDescription: 'Artist, Graphic Designer, Video Production',
                 description: 'Lorenzo is a multi-disciplinary artist with a focus in painting and drawing, but also enjoys videography, writing, and sculpture. He prefers analog mediums to digital. His work is most often focused on time and place, and uses mark-making to create narratives and images that pertain to himself or his environment. Besides art-making, Lorenzo is also passionate about baseball, and loves to read and hike. Lorenzo graduated from the University of Pittsburgh with a BA in Studio Arts.',
@@ -107,19 +119,8 @@ module.exports = {
                     'http://www.liveincolormedia.com/Merch_Images/AboutUs/Lorenzo.JPG'
                     ],
             }
-        },
-		{
-            id: 8,
-            snippet: {
-                title: 'Raam Chinnaya',
-                color: '#cf7508',
-                position: 'Designer',
-                positionDescription: 'Artist, Graphic Designer',
-                description: 'What’s up guys, I’m Raam and I have had the opportunity to come up with a whole bunch of designs surrounding the LIC brand. I hope to finalize them and see some designs released real soon. Other than that I am going to be a rising senior at the University of Pittsburgh, where I study Civil Engineering. Drawing and designing is a passion of mine so I am glad that through Live in Color I am able to still hold onto it after all of these years. Hope to update you all soon, peace.',
-                images: [
-                    'http://www.liveincolormedia.com/Merch_Images/AboutUs/Raam.JPG'
-                    ],
-            }
+        }
+		
         }
     ]
 }
