@@ -162,6 +162,7 @@ a {
 
 .cart_item{
   width: auto !important;
+  transition: background-color .1s, opacity 0.5s, left .5s !important;
 }
 
 .cart_item:hover{
@@ -174,12 +175,14 @@ a {
   width: 40px;
   height: 40px;
   position: absolute;
-  color: white;
   top: 10px;
   right: 10px;
   border-radius: 50%;
   font-size: 25px;
-  text-align: center;
+  text-align: center;  
+  background-image:url('http://www.liveincolormedia.com/Merch_Images/removeicon.png');
+  background-size:contain;
+  background-position: center;
 }
 
 .remove_button:hover{

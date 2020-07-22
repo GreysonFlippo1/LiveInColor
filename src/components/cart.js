@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import { removeCartThunk } from './store/cart';
 
 export default function Cart(props){
     // const cart = useSelector(state => state.cart);
@@ -17,7 +18,7 @@ export default function Cart(props){
             {
                 cart.length > 0 ?
                 cart.map((item, index) => 
-                    <CartItem key={index} item={item}/>
+                    <CartItem key={index} item={item} index={index}/>
                 ) : 'There are not items in your cart :('
             }
         </div>
@@ -25,7 +26,11 @@ export default function Cart(props){
 }
 
 function CartItem(props){
-    const item = props.item;
+    const {item, index} = props;
+    const dispatch = useDispatch();
+    let clickHandler = (item) => {
+        dispatch(removeCartThunk(item));
+    }
     return (
         <div className="cards cart_item">
             <div className="card_container">
@@ -36,7 +41,7 @@ function CartItem(props){
                 <div className="card_description">{item.description}</div>
                 <div className="card_owner">${item.price} - {item.size}</div>
             </div>
-            <div className="remove_button">x</div>
+            <div className="remove_button" onClick={() => {clickHandler(index)}}></div>
         </div>
     )
 }
