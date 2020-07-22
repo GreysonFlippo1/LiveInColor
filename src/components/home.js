@@ -9,6 +9,7 @@ import Social from './social';
 
 export default function Home(){
     const playlist = useSelector(state => state.playlist);
+    const cart = useSelector(state => state.cart);
     const dispatch = useDispatch();
     const [showCart, setCartState] = React.useState(false);
 
@@ -22,11 +23,11 @@ export default function Home(){
     return(
         <div className="home_page">
             <div className="cart_icon" onClick={toggleCart}>
-                <div className="cart_counter">1</div>
+                {(cart.cart && cart.cart.length) ? (<div className="cart_counter">{cart.cart.length}</div>) : ''}
             </div>
             {showCart && (
                 <>
-                <Cart />
+                <Cart cart={cart.cart} />
                 <div className="cart_background" onClick={toggleCart}/>
                 </>
             )}

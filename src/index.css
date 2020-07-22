@@ -90,6 +90,9 @@ a {
   top:70px;
   opacity: 0;
   animation: fadeIn 0.2s linear forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @keyframes fadeIn {
@@ -155,6 +158,33 @@ a {
   border-bottom: 5px solid rgba(0,0,0,0);
   transition:border-bottom .3s;
   text-align: center;
+}
+
+.cart_item{
+  width: auto !important;
+}
+
+.cart_item:hover{
+  cursor: default !important;
+  background-color:#ffffff !important;
+}
+
+.remove_button{
+  background-color: #dd6666;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  color: white;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.remove_button:hover{
+  background-color: #bb4444;
+  cursor: pointer;
 }
 
 .option1:hover{

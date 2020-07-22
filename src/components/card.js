@@ -1,4 +1,5 @@
 import React from 'react';
+import { useDispatch} from 'react-redux';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
@@ -13,6 +14,12 @@ export default function Card(props){
     const [open, setOpen] = React.useState(false);
     const [image, setImage] = React.useState(0);
     
+    const dispatch = useDispatch();
+
+    let clickHandler = (item) => {
+        dispatch(addCartThunk(item));
+    }
+
     let gallery_image_length = 0;
     (props.video && props.video.snippet.images) && (gallery_image_length = props.video.snippet.images.length-1);
 
@@ -92,14 +99,14 @@ export default function Card(props){
                                     value={size}
                                     onChange={handleChange}
                                     >
-                                    <MenuItem value={0}>Small</MenuItem>
-                                    <MenuItem value={1}>Medium</MenuItem>
-                                    <MenuItem value={2}>Large</MenuItem>
-                                    <MenuItem value={3}>X Large</MenuItem>
-                                    <MenuItem value={4}>XX Large</MenuItem>
+                                    <MenuItem value={'Small'}>Small</MenuItem>
+                                    <MenuItem value={'Medium'}>Medium</MenuItem>
+                                    <MenuItem value={'Large'}>Large</MenuItem>
+                                    <MenuItem value={'X Large'}>X Large</MenuItem>
+                                    <MenuItem value={'XX Large'}>XX Large</MenuItem>
                                     </Select>
                                 </FormControl>
-                                <ColorButton variant="contained" color="primary" className="add_to_cart expanded_cart">
+                                <ColorButton variant="contained" color="primary" className="add_to_cart expanded_cart" disabled={!size} onClick={()=>{clickHandler({...props.video.snippet, size: size})}}>
                                     Add To Cart
                                 </ColorButton>
                             </div>
