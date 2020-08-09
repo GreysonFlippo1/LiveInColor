@@ -6,7 +6,7 @@ import Card from './card';
 import Cart from './cart';
 import GridLoader from 'react-spinners/GridLoader';
 import Social from './social';
-
+// Dekwuan was here
 export default function Home(){
     const playlist = useSelector(state => state.playlist);
     const cart = useSelector(state => state.cart);
